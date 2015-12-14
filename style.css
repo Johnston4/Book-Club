@@ -2,12 +2,10 @@
 .logo {
     position: relative;
     display: inline;
-    width: 20%;
 }
 .nav_container {
     height: 10vh;
-    margin: 0 12.5%;
-    width: 75vw;
+    width: 100vw;
     background-color: #858BA9;
     position: relative;
 }
@@ -15,7 +13,6 @@
     width: 75%;
     position: absolute;
     bottom: 0;
-    display: block;
 }
 .nav_ul {
     width: 100%;
@@ -41,7 +38,7 @@
 .nav_div, .nav_li, .nav_ul {
     display: inline-block;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav_container{
         width: 100vw;
         height: 15vw;
@@ -49,7 +46,6 @@
     }
     .logo {
         width: 30%;
-        align-content: center;
     }
     .nav_div {
         display: block;
@@ -70,7 +66,7 @@
     }
     .logo {
         width: 50%;
-        align-content: center;
+
     }
     .nav_div {
         display: block;

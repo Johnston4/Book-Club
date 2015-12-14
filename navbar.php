@@ -10,6 +10,7 @@ $nav = array(
 <div class="nav_container">
     <img class="logo" src="images/bookniche_logo.png">
     <div class="nav_div">
+
         <ul class="nav_ul">
             <?php
             foreach ($nav as $key => $value) {
